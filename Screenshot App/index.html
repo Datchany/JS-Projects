@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Take Screenshots With Javascript</title>
+    <!-- HTML2CANVAS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+      integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylsheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="container">
+        <h1>Boats</h1>
+        <p>
+          Boats are watercrafts designed to float and navigate on water, primarily used for transportation, 
+          fishing, recreation, and military purposes. They vary greatly in size, shape, and function, ranging from small rowboats and canoes to large vessels like yachts and ferries. The term "boat"
+           is often used for smaller vessels, while larger ones are typically called ships.
+        </p>
+        <img src="img.jpg" />
+      </div>
+      <div id="preview-container"></div>
+    </div>
+    <div class="buttons">
+      <button id="capture-button">Capture Screenshot</button>
+      <a id="download-button" class="hide">Download Screenshot</a>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
